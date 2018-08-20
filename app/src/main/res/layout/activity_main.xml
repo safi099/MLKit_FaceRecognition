@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Face Recognition Application"
+        android:textColor="#000000"
+        android:textAlignment="center"
+         />
+    <Space
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Images Counter = 0"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="20dp" />
+
+
+    <ImageView
+        android:id="@+id/img_camera"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/take_photo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="TAKE PHOTO"
+        />
+
+    <Button
+        android:id="@+id/train"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Train Data" />
+
+    <Button
+        android:id="@+id/recognize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Recognize Image" />
+
+</LinearLayout>

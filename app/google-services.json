@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "246404830392",
+    "firebase_url": "https://mlkitfacerecognition-c5a09.firebaseio.com",
+    "project_id": "mlkitfacerecognition-c5a09",
+    "storage_bucket": "mlkitfacerecognition-c5a09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246404830392:android:3e285f9f8e76a664",
+        "android_client_info": {
+          "package_name": "com.developer.iamsafi.mlkit_facerecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246404830392-11n2t5v9lik7ckor6c7qkq5diilpdemg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developer.iamsafi.mlkit_facerecognition",
+            "certificate_hash": "5917f6df8e0192de580d7f0ea739c8aeca2c9d42"
+          }
+        },
+        {
+          "client_id": "246404830392-cfgos8su3pda6sn50aoimhvq388pti74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKsbjUpOzbJP7susw9Av4yVbNSssV0AZQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246404830392-cfgos8su3pda6sn50aoimhvq388pti74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
